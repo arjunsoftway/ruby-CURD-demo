@@ -71,7 +71,7 @@ class Crud < Database
 	 	#puts showData
 	 	puts 'select id for updating the record'
 	 	selected_id=gets
-	 	puts 'Enter the which you want update in the record'
+	 	puts 'Please enter the new name'
 	 	updatedvalue = gets.strip
 	 	if !selectRow(selected_id)
 	 		puts "Empty record, There is no record with the id '#{selected_id}'"
